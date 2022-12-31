@@ -1,6 +1,7 @@
 .header {
   display: flex;
   justify-content: center;
+  align-items: center;
   background: var(--gray-800);
   width: 100%;
   gap: 16px;
@@ -14,4 +15,9 @@
   font-size: 26px;
   line-height: 160%;
   color: #E1E1E6;
+}
+
+.header img {
+  width: 64px;
+  height: 3rem;
 }
